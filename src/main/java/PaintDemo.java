@@ -5,6 +5,8 @@ import java.awt.event.*;
 public class PaintDemo {
     JFrame frame;
     DrawingPanel dPanel;
+    int height = 500;
+    int width = 500;
 
     // This is the constructor which sets up the JFrame
     // and all other components and containers
@@ -51,6 +53,8 @@ public class PaintDemo {
             g.setColor(Color.RED);
             g.fillRect(50, 300, 50, 50);
             g.fillOval(200, 50, 50, 100);
+
+
         }
     }
 }
